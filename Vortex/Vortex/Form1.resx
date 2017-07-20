@@ -286,13 +286,13 @@
     <value>12, 135</value>
   </data>
   <data name="thirdLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 24</value>
+    <value>138, 24</value>
   </data>
   <data name="thirdLabel.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
   <data name="thirdLabel.Text" xml:space="preserve">
-    <value>Keg:</value>
+    <value>Temperatura 3:</value>
   </data>
   <data name="&gt;&gt;thirdLabel.Name" xml:space="preserve">
     <value>thirdLabel</value>
@@ -316,13 +316,13 @@
     <value>12, 85</value>
   </data>
   <data name="secondLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 24</value>
+    <value>138, 24</value>
   </data>
   <data name="secondLabel.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
   <data name="secondLabel.Text" xml:space="preserve">
-    <value>Głowica:</value>
+    <value>Temperatura 2:</value>
   </data>
   <data name="&gt;&gt;secondLabel.Name" xml:space="preserve">
     <value>secondLabel</value>
@@ -346,13 +346,13 @@
     <value>12, 35</value>
   </data>
   <data name="firstLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 24</value>
+    <value>138, 24</value>
   </data>
   <data name="firstLabel.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="firstLabel.Text" xml:space="preserve">
-    <value>Kolumna:</value>
+    <value>Temperatura 1:</value>
   </data>
   <data name="&gt;&gt;firstLabel.Name" xml:space="preserve">
     <value>firstLabel</value>
@@ -376,13 +376,13 @@
     <value>12, 185</value>
   </data>
   <data name="fourthLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 24</value>
+    <value>138, 24</value>
   </data>
   <data name="fourthLabel.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
   <data name="fourthLabel.Text" xml:space="preserve">
-    <value>Chłodzenie:</value>
+    <value>Temperatura 4:</value>
   </data>
   <data name="&gt;&gt;fourthLabel.Name" xml:space="preserve">
     <value>fourthLabel</value>
@@ -419,186 +419,6 @@
   </data>
   <data name="&gt;&gt;actualTempBox.ZOrder" xml:space="preserve">
     <value>7</value>
-  </data>
-  <data name="&gt;&gt;fourthTempAlarmBox.Name" xml:space="preserve">
-    <value>fourthTempAlarmBox</value>
-  </data>
-  <data name="&gt;&gt;fourthTempAlarmBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;fourthTempAlarmBox.Parent" xml:space="preserve">
-    <value>alarmBox</value>
-  </data>
-  <data name="&gt;&gt;fourthTempAlarmBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;thirdTempAlarmBox.Name" xml:space="preserve">
-    <value>thirdTempAlarmBox</value>
-  </data>
-  <data name="&gt;&gt;thirdTempAlarmBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;thirdTempAlarmBox.Parent" xml:space="preserve">
-    <value>alarmBox</value>
-  </data>
-  <data name="&gt;&gt;thirdTempAlarmBox.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;secondTempAlarmBox.Name" xml:space="preserve">
-    <value>secondTempAlarmBox</value>
-  </data>
-  <data name="&gt;&gt;secondTempAlarmBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;secondTempAlarmBox.Parent" xml:space="preserve">
-    <value>alarmBox</value>
-  </data>
-  <data name="&gt;&gt;secondTempAlarmBox.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;firstTempAlarmBox.Name" xml:space="preserve">
-    <value>firstTempAlarmBox</value>
-  </data>
-  <data name="&gt;&gt;firstTempAlarmBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;firstTempAlarmBox.Parent" xml:space="preserve">
-    <value>alarmBox</value>
-  </data>
-  <data name="&gt;&gt;firstTempAlarmBox.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;alarmAllOnOFFButton.Name" xml:space="preserve">
-    <value>alarmAllOnOFFButton</value>
-  </data>
-  <data name="&gt;&gt;alarmAllOnOFFButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;alarmAllOnOFFButton.Parent" xml:space="preserve">
-    <value>alarmBox</value>
-  </data>
-  <data name="&gt;&gt;alarmAllOnOFFButton.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;fourthAlarmOn.Name" xml:space="preserve">
-    <value>fourthAlarmOn</value>
-  </data>
-  <data name="&gt;&gt;fourthAlarmOn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;fourthAlarmOn.Parent" xml:space="preserve">
-    <value>alarmBox</value>
-  </data>
-  <data name="&gt;&gt;fourthAlarmOn.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;thirdAlarmOn.Name" xml:space="preserve">
-    <value>thirdAlarmOn</value>
-  </data>
-  <data name="&gt;&gt;thirdAlarmOn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;thirdAlarmOn.Parent" xml:space="preserve">
-    <value>alarmBox</value>
-  </data>
-  <data name="&gt;&gt;thirdAlarmOn.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;secondAlarmOn.Name" xml:space="preserve">
-    <value>secondAlarmOn</value>
-  </data>
-  <data name="&gt;&gt;secondAlarmOn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;secondAlarmOn.Parent" xml:space="preserve">
-    <value>alarmBox</value>
-  </data>
-  <data name="&gt;&gt;secondAlarmOn.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;firstAlarmOn.Name" xml:space="preserve">
-    <value>firstAlarmOn</value>
-  </data>
-  <data name="&gt;&gt;firstAlarmOn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;firstAlarmOn.Parent" xml:space="preserve">
-    <value>alarmBox</value>
-  </data>
-  <data name="&gt;&gt;firstAlarmOn.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;thirdTempAlarm.Name" xml:space="preserve">
-    <value>thirdTempAlarm</value>
-  </data>
-  <data name="&gt;&gt;thirdTempAlarm.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;thirdTempAlarm.Parent" xml:space="preserve">
-    <value>alarmBox</value>
-  </data>
-  <data name="&gt;&gt;thirdTempAlarm.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;fourthTempAlarm.Name" xml:space="preserve">
-    <value>fourthTempAlarm</value>
-  </data>
-  <data name="&gt;&gt;fourthTempAlarm.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;fourthTempAlarm.Parent" xml:space="preserve">
-    <value>alarmBox</value>
-  </data>
-  <data name="&gt;&gt;fourthTempAlarm.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;secondTempAlarm.Name" xml:space="preserve">
-    <value>secondTempAlarm</value>
-  </data>
-  <data name="&gt;&gt;secondTempAlarm.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;secondTempAlarm.Parent" xml:space="preserve">
-    <value>alarmBox</value>
-  </data>
-  <data name="&gt;&gt;secondTempAlarm.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;firstTempAlarm.Name" xml:space="preserve">
-    <value>firstTempAlarm</value>
-  </data>
-  <data name="&gt;&gt;firstTempAlarm.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;firstTempAlarm.Parent" xml:space="preserve">
-    <value>alarmBox</value>
-  </data>
-  <data name="&gt;&gt;firstTempAlarm.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="alarmBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>285, 13</value>
-  </data>
-  <data name="alarmBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 270</value>
-  </data>
-  <data name="alarmBox.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="alarmBox.Text" xml:space="preserve">
-    <value>Alarm</value>
-  </data>
-  <data name="&gt;&gt;alarmBox.Name" xml:space="preserve">
-    <value>alarmBox</value>
-  </data>
-  <data name="&gt;&gt;alarmBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;alarmBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;alarmBox.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="fourthTempAlarmBox.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -1040,6 +860,30 @@
   </data>
   <data name="&gt;&gt;firstTempAlarm.ZOrder" xml:space="preserve">
     <value>12</value>
+  </data>
+  <data name="alarmBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 13</value>
+  </data>
+  <data name="alarmBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 270</value>
+  </data>
+  <data name="alarmBox.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="alarmBox.Text" xml:space="preserve">
+    <value>Alarm</value>
+  </data>
+  <data name="&gt;&gt;alarmBox.Name" xml:space="preserve">
+    <value>alarmBox</value>
+  </data>
+  <data name="&gt;&gt;alarmBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;alarmBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;alarmBox.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="settingsButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>

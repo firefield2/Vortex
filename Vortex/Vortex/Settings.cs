@@ -11,7 +11,7 @@ namespace Vortex
     {
         static string filePath;
         static string path;
-        static string urlAdress = "http://micropower.com.pl/baza.php?TOKEN=12345&cmd=temp";
+        static string urlAdress = "The address of the php script that gives up the current data.";
         static bool chartAllow = false;
         static bool lastChartAllow=false;
 
