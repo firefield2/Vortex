@@ -15,7 +15,6 @@ using System.Threading;
 
 namespace Vortex
 {
-    //TODO Generowanie wykresów w nowym oknie
     public partial class MainForm : Form
     {
         CancellationTokenSource cancellationToken = new CancellationTokenSource();

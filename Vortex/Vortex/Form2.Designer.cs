@@ -53,8 +53,14 @@
             this.chart.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            chartArea1.AxisX.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
             chartArea1.AxisX.LabelStyle.Format = "HH:mm";
+            chartArea1.AxisX.Title = "Godzina";
+            chartArea1.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            chartArea1.AxisY.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
             chartArea1.AxisY.IsStartedFromZero = false;
+            chartArea1.AxisY.Title = "Temperatura [°C]";
+            chartArea1.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             chartArea1.Name = "ChartArea1";
             this.chart.ChartAreas.Add(chartArea1);
             this.chart.Cursor = System.Windows.Forms.Cursors.Default;
@@ -172,7 +178,7 @@
             // maxTimePicker
             // 
             this.maxTimePicker.Checked = false;
-            this.maxTimePicker.CustomFormat = "      HH : mm";
+            this.maxTimePicker.CustomFormat = " dd.MM HH:mm";
             this.maxTimePicker.Enabled = false;
             this.maxTimePicker.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.maxTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
@@ -195,7 +201,7 @@
             // minTimePicker
             // 
             this.minTimePicker.Checked = false;
-            this.minTimePicker.CustomFormat = "      HH : mm";
+            this.minTimePicker.CustomFormat = " dd.MM HH:mm";
             this.minTimePicker.Enabled = false;
             this.minTimePicker.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.minTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;

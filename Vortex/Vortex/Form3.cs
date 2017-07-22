@@ -13,7 +13,6 @@ namespace Vortex
 {
     public partial class Form3 : Form
     {
-        //TODO Powiadomienie o niezpisanych danych przy zamknięciu
         public Form3()
         {
             InitializeComponent();

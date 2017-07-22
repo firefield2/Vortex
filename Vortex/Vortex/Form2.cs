@@ -30,10 +30,6 @@ namespace Vortex
 
         public void DrawChart(object sender = null, EventArgs e = null)
         {
-            //chart.ChartAreas[0].AxisX.LabelStyle.Format = "HH:mm";
-            //chart.ChartAreas[0].AxisY.IsStartedFromZero = false;
-            //chart.ChartAreas[0].AxisX.IntervalType = DateTimeIntervalType.Minutes;
-            //chart.ChartAreas[0].AxisX.Interval = 10;
             chart.Series.Clear();
             if (temperature1CheckBox.Checked)
             {
@@ -89,10 +85,9 @@ namespace Vortex
             }
             foreach (var series in chart.Series)
             {
-                series.XValueType = ChartValueType.Time;
+                series.XValueType = ChartValueType.DateTime;
                 series.ChartType = SeriesChartType.Line;
                 series.BorderWidth = 5;
-                //series.IsXValueIndexed = true;
             }
         }
 

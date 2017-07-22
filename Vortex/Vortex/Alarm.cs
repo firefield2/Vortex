@@ -47,7 +47,7 @@ namespace Vortex
             if (Settings.ChartAllow&& DateTime.Now.Minute!=lastMeasureTime.Minute)
             {
                 lastMeasureTime = DateTime.Now;
-                CSVFile.Record record = new CSVFile.Record(DateTime.Now.ToShortTimeString(), parseTemp1, parseTemp2, parseTemp3, parseTemp4);
+                CSVFile.Record record = new CSVFile.Record(DateTime.Now.ToString(), parseTemp1, parseTemp2, parseTemp3, parseTemp4);
                 CSVFile.SaveRecord(record);
             }
         }
