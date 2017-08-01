@@ -151,6 +151,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Alarm.wav" />
     <Content Include="vortex_Ulm_icon.ico" />
   </ItemGroup>
   <ItemGroup>

@@ -59,5 +59,14 @@ namespace Vortex.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.IO.UnmanagedMemoryStream podobny do zasobu System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Alarm {
+            get {
+                return ResourceManager.GetStream("Alarm", resourceCulture);
+            }
+        }
     }
 }

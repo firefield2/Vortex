@@ -43,30 +43,34 @@ namespace Vortex
             int errorsCount = 0;
             while (!cancellationToken.IsCancellationRequested)
             {
-                try
+                if (Uri.IsWellFormedUriString(Settings.UrlAdress, UriKind.Absolute))
                 {
-                    HttpWebRequest request = (HttpWebRequest)WebRequest.Create(Settings.UrlAdress);
-                    request.Timeout = 2000;
-                    using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+                    try
                     {
-                        using (Stream responseStream = response.GetResponseStream())
+
+                        HttpWebRequest request = (HttpWebRequest)WebRequest.Create(Settings.UrlAdress);
+                        request.Timeout = 2000;
+                        using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
                         {
-                            errorsCount = 0;
-                            using (StreamReader reader = new StreamReader(responseStream, Encoding.UTF8))
-                                data = reader.ReadToEnd();
+                            using (Stream responseStream = response.GetResponseStream())
+                            {
+                                errorsCount = 0;
+                                using (StreamReader reader = new StreamReader(responseStream, Encoding.UTF8))
+                                    data = reader.ReadToEnd();
+                            }
+                        }
+
+                    }
+                    catch (WebException ex)
+                    {
+                        errorsCount++;
+                        if (errorsCount > 5)
+                        {
+                            MessageBox.Show("Nie można nawiązać połączenia z serwerem. " + ex.Message);
                         }
                     }
-
+                    HandleData(data);
                 }
-                catch (WebException ex)
-                {
-                    errorsCount++;
-                    if (errorsCount > 5)
-                    {
-                        MessageBox.Show("Nie można nawiązać połączenia z serwerem. " + ex.Message);
-                    }
-                }
-                HandleData(data);
             }
 
         }

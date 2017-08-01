@@ -71,10 +71,7 @@ namespace Vortex
             timer = new System.Timers.Timer(10);
             timer.Elapsed += Timer1OVF;
             timer.AutoReset = true;
-            player = new SoundPlayer()
-            {
-                SoundLocation = @"music/Alarm.wav"
-            };
+            player = new SoundPlayer(Vortex.Properties.Resources.Alarm);
             player.LoadAsync();
         }
 
