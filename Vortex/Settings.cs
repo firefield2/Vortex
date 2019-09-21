@@ -41,7 +41,7 @@ namespace Vortex
                 {
                     DateTime currentDate = DateTime.Today;
                     DateTime currentTime = DateTime.Now;
-                    FilePath = $"\\vortex_{currentDate.Month}{currentDate.Day}_{currentTime.Hour}{currentTime.Minute}";
+                    FilePath = $"vortex_{currentDate.Month}{currentDate.Day}_{currentTime.Hour}{currentTime.Minute}";
                     if(!File.Exists(FilePath))
                     {
                         CSVFile.CreateCSVFile();
@@ -53,7 +53,7 @@ namespace Vortex
 
         public static string FilePath
         {
-            get => filePath; private set => filePath = path + value + ".csv";
+            get => filePath; private set => filePath = System.IO.Path.Combine(path, value + ".csv");
 
         }
     }
